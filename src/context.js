@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useLocation } from 'react-router-dom';
 
-export const client_id = 'rg7MdRgBIDIorh8dhiC1DTpsYOxrJtomnNG6PBtQ1e0';
+export const client_id = process.env.REACT_APP_ACCESS_KEY;
 const UnsplashContext = React.createContext();
 
 const rootUrl = "https://api.unsplash.com";
