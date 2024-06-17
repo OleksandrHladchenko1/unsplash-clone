@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.imgContainer {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.description {
+  width: 50%;
+}

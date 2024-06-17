@@ -1,0 +1,12 @@
+.tag {
+  display: inline-block;
+  background-color: rgb(228, 228, 228);
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: .3s;
+  }
+}
